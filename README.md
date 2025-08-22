@@ -10,8 +10,46 @@
 
 </div>
 
+## 📱 Screenshots
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="home.png" alt="Home Screen" width="200"/>
+        <br/>
+        <b>Home Screen</b>
+        <br/>
+        <sub>Modern product catalog with categories</sub>
+      </td>
+      <td align="center">
+        <img src="items.png" alt="Product List" width="200"/>
+        <br/>
+        <b>Product List</b>
+        <br/>
+        <sub>Grid layout with product filtering</sub>
+      </td>
+      <td align="center">
+        <img src="cart.png" alt="Shopping Cart" width="200"/>
+        <br/>
+        <b>Shopping Cart</b>
+        <br/>
+        <sub>Modern cart with quantity controls</sub>
+      </td>
+      <td align="center">
+        <img src="profile.png" alt="Profile Screen" width="200"/>
+        <br/>
+        <b>Profile Screen</b>
+        <br/>
+        <sub>User profile with statistics</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
 ## 📋 Table of Contents
 
+- [Screenshots](#-screenshots)
 - [Features](#-features)
 - [Architecture & State Management](#-architecture--state-management)
 - [Dependencies & Packages](#-dependencies--packages)
@@ -20,7 +58,7 @@
 - [Design System](#-design-system)
 - [Authentication](#-authentication)
 - [Data Management](#-data-management)
-- [Screenshots](#-screenshots)
+- [Testing](#-testing)
 - [Contributing](#-contributing)
 - [License](#-license)
 
@@ -327,30 +365,6 @@ abstract class ProductRepository {
   Future<Either<String, List<Product>>> getBestSellerProducts();
   Future<Either<String, ProductDetailResponse>> getProductDetail(String productId);
 }
-```
-
-## 📱 Screenshots
-
-*Screenshots section - Add your app screenshots here*
-
-```
-Home Screen     Product List    Product Detail    Shopping Cart
-┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
-│             │ │             │ │             │ │             │
-│   Banners   │ │   Grid      │ │   Gallery   │ │   Items     │
-│   Categories│ │   Products  │ │   Details   │ │   Summary   │
-│   Featured  │ │   Filters   │ │   Variants  │ │   Checkout  │
-│             │ │             │ │             │ │             │
-└─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘
-
-Login Screen    Profile         Categories      Search
-┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
-│             │ │             │ │             │ │             │
-│   Logo      │ │   Avatar    │ │   Grid      │ │   Search    │
-│   Form      │ │   Stats     │ │   Cards     │ │   Results   │
-│   Social    │ │   Menu      │ │   Navigation│ │   Filters   │
-│             │ │             │ │             │ │             │
-└─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘
 ```
 
 ## 🧪 Testing

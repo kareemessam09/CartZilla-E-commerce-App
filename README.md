@@ -4,7 +4,6 @@
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Material Design](https://img.shields.io/badge/Material%20Design%203-757575?style=for-the-badge&logo=material-design&logoColor=white)
 
 **A sophisticated Flutter ecommerce application featuring a sleek dark theme, modern UI components, and contemporary design patterns following Material Design 3 principles.**
 

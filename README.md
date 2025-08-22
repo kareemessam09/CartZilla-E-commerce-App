@@ -1,4 +1,4 @@
-# 🛒 Modern Flutter Ecommerce App
+# CartZilla Flutter E-commerce App
 
 <div align="center">
 
